@@ -1,0 +1,20 @@
+'use strict';
+
+const hackYourFutureMembers = [
+  { name: 'Wouter', age: 33 },
+  { name: 'Federico', age: 32 },
+  { name: 'Noer', age: 27 },
+  { name: 'Tjebbe', age: 22 },
+];
+
+function addAges(arr) {
+  let ages = arr.map(name => name.age);
+
+  let agessum = ages.reduce((total, item) => {
+    return total + item;
+  });
+  console.log(` The collective age of the HYF team is:${agessum}`);
+  return console.log(agessum);
+}
+
+addAges(hackYourFutureMembers);
