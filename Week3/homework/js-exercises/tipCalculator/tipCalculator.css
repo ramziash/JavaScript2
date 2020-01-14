@@ -1,0 +1,24 @@
+.hidden {
+  display: none;
+}
+
+body {
+  background-color: orange;
+}
+
+#tipContainer {
+  width: 50%;
+  height: 600px;
+  border: 2px solid white;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+#calculate {
+  margin-top: 20px;
+  font-size: 13px;
+}
