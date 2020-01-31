@@ -2,15 +2,15 @@
 
 const letters = ['a', 'b', 'c', 'd', 'a', 'e', 'f', 'c', 'b'];
 
-function dup(arr) {
-  return arr.filter((index, letter) => arr.indexOf(index) === letter);
+function removeDup(arr) {
+  return arr.filter((letter, index) => arr.indexOf(letter) === index);
 }
 
-console.log(dup(letters));
+console.log(removeDup(letters));
 
 // alternative method
 
-function remDup(arr) {
+function removeDuplicate(arr) {
   let newArray = [];
   arr.forEach(function(item) {
     if (!newArray[item]) {
@@ -20,4 +20,5 @@ function remDup(arr) {
   return Object.keys(newArray);
 }
 
-console.log(remDup(letters));
+console.log(removeDuplicate(letters));
+
