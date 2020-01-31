@@ -8,11 +8,12 @@ function createBase(num1) {
   return add;
 }
 
-const addSix = createBase(9);
-const addSeven = createBase(17);
-const addEight = createBase(28);
+const addSix = createBase(6);
+const addSeven = createBase(7);
+const addEight = createBase(8);
 
 // Put here your function calls...
-console.log(addSix(6));
-console.log(addSeven(7));
-console.log(addEight(8));
+console.log(addSix(9));
+console.log(addSeven(17));
+console.log(addEight(28));
+
